@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+}
+body {
+	background-color: black
+}
+#contenedor{
+	background-color: white;
+	width: 1366px;
+	height: 2148px;
+}
+#contenedor #encabezado{
+	width: 1366px;
+	height: 150px;
+	background-color: #D4D4D4;
+	position:relative;
+	top: 0px;
+}
