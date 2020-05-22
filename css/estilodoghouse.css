@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+}
+body {
+	background-color: black
+}
+#contenedor{
+	background-color: white;
+	width: 1366px;
+	height: 2039px;
+}
+#contenedor #encabezado{
+	width: 1366px;
+	height: 150px;
+	background-color: #FFFFFF;
+	position: relative;
+	top: 0px;
+}
+#contenedor #encabezado #logo img{
+	width: 25%;
+	height: auto;
+	position: absolute;
+	left: 20px;
+	top: 1.5px;
+	
+}
+#contenedor header nav {
+	width: 60%;
+	height: 100px;
+	position:absolute;
+  	right: 20px;
+  	top: 25px;
+	background-color: #FFFFFF;
+	padding: 3px;
+	text-align: center;
+	
+	
+}
+#contenedor header nav ul li{
+	width: 180px;
+	height: 108px;
+	display: inline-block;
+	text-decoration: none;
+  	text-align:center;
+	position: relative;
+	bottom: 10px;
+	border-box: medium #751611;
+	box-shadow: 0.5px 0.5px 1px #000000;
+}
+#contenedor header nav ul li a {
+	text-decoration: none;
+	color: #000000;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 26px; 
+	font-weight: bolder;
+	display: block;
+	padding:32px 20px;
+	
+}
+
+#contenedor header nav ul li a:hover{
+	background-color: #751611;
+	text-shadow: 1px 1px 0px #000000;
+	color: #fff;
+	cursor: pointer;
+	transform: translate(-2%,2%)
+}
+
+#bienvenida{
+	width: 1366px;
+	height: 500px;
+	background-color: #F2CB8B;
+	padding-top: 45px;
+}
+#bienvenida #doghouse {
+	position: absolute;
+	left: 68px;
+	width: 1250px;
+	height: 400px;
+	
+}	
+#bienvenida #doghouse h6{
+	padding-top: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size:80px;
+	text-align: center;
+	font-style: italic
+}	
+#bienvenida #doghouse h6 span{
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-weight: bolder;
+	color: #751611
+}
+#bienvenida #doghouse p{
+	width: 1200px;
+	height: 200px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 24px;
+	text-align: justify;
+	font-weight: 500;
+	padding-top: 20px
+}
+#separador{
+	width: 1366px;
+	height: auto;
+	position: relative;
+	left: 0px;
+	top: 0px
+}
+#separador img {
+	width: 1366px;
+	height: auto;
+}
+#articulos {
+	height: 660px;
+	background-color: #D4D4D4;
+	
+}
+#articulos h7{
+	position: relative;
+	top: 15px;
+	width: 1366px;
+	height: 60px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 50px;
+	color: #751611;
+	font-weight: bolder;
+	padding-left: 30px;
+	margin-top: 200px;
+}
+
+#articulos #articulo1{
+	width:  320px;
+	height: 306px;
+	position: relative;
+	top: 30px;
+	left: 15px;
+	box-shadow: 1px 1px 10px #000000	
+}
+
+#articulos #articulo2{
+	width:  320px;
+	height: 306px;
+	position: relative;
+	bottom: 276px;
+	left: 355px;
+	box-shadow: 1px 1px 10px #000000
+	
+}	
+#articulos #articulo3{
+	width:  320px;
+	height: 306px;
+	position: relative;
+	bottom:  583px;
+	left: 691px;
+	box-shadow: 1px 1px 10px #000000
+}
+#articulos #articulo4{
+	width:  320px;
+	height: 306px;
+	position: relative;
+	bottom: 890px;
+	left: 1030px;
+	box-shadow: 1px 1px 10px #000000
+}
+#articulos #articulo1 {
+	box-shadow: 2px 3px 3px 0px black
+}
+#articulos #articulo2 {
+	box-shadow: 2px 3px 3px 0px black
+}
+#articulos #articulo3 {
+	box-shadow: 2px 3px 3px 0px black
+}
+#articulos #articulo4  {
+	box-shadow: 2px 3px 3px 0px black
+}
+#articulos #texto-encima1{
+	width: 320px;
+	height: 180px;
+	position: absolute;
+	top:  320px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: solid 5px #751611;
+	
+	
+}
+#articulos #texto-encima1 h8 {
+	width: 320px;
+	height: 90px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+	color: #000000;
+	text-align: left;
+	font-weight: 700; 
+}
+#articulos #texto-encima2{
+	width: 320px;
+	height: 140px;
+	position: absolute;
+	top:  320px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: solid 5px #751611;
+	
+}
+#articulos #texto-encima2 h9 {
+	width: 320px;
+	height: 90px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+	color: #000000;
+	text-align: left;
+	font-weight: 700
+}
+#articulos #texto-encima3{
+	width: 320px;
+	height: 140px;
+	position: absolute;
+	top:  320px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: solid 5px #751611;
+	
+}
+#articulos #texto-encima3 h10 {
+	width: 320px;
+	height: 90px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+	color: #000000;
+	text-align: left;
+	font-weight: 700
+}
+#articulos #texto-encima4{
+	width: 320px;
+	height: 140px;
+	position: absolute;
+	
+	top:  320px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-left: solid 5px #751611;
+	
+}
+#articulos #texto-encima4 h11 {
+	width: 380px;
+	height: 90px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 30px;
+	color: #000000;
+	text-align: left;
+	font-weight: 700
+}
+#piedepagina {
+	width: 1366px;
+	height: 130px;
+	background-color: #659933;
+	
+}
+#piedepagina h12{
+	width: 1366px;
+	height: 80px;
+	position: absolute;
+	padding-top: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: center; 
+	color: #FFFFFF;
+	font-weight: bold
+}
+#piedepagina h13{
+	width: 1366px;
+	height: 80px;
+	position: absolute;
+	padding-top: 70px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 22px;
+	text-align: center; 
+	color: #FFFFFF;
+	font-weight: bold
+}
+
+
+
+
+
